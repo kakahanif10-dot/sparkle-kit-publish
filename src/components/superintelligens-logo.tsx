@@ -1,12 +1,12 @@
 import { cn } from '@/lib/utils'
-import transparentLogo from '@/assets/superintelligens-icon.png.asset.json'
+import whiteLogo from '@/assets/superintelligens-logo-white.png'
 
 export function SuperintelligensMark({ className }: { className?: string }) {
   return (
     <img
-      src={transparentLogo.url}
+      src={whiteLogo}
       alt="SUPERINTELLIGENS logo"
-      className={cn('inline-block object-contain invert', className)}
+      className={cn('inline-block object-contain', className)}
     />
   )
 }
